@@ -9267,9 +9267,9 @@ a.text-dark:hover {
   }
 }
 .btn-primary {
-  background: #ed1c24;
+  background: #048C3F;
   color: #fff;
-  border: 1px solid #ed1c24;
+  border: 1px solid #048C3F;
   padding: 11px 24px;
   border-radius: 0;
   font-weight: 400;
@@ -9898,7 +9898,7 @@ div#appointment-form h2 {
   }
 }
 footer.sitefooter {
-  background: #ec3123;
+  background: #048C3F;
   padding: 45px 0 0;
   color: #fff;
   font-weight: 300;
@@ -13130,13 +13130,13 @@ ul.socialicon li a {
 .join-btn:focus {
   box-shadow: none;
   background-color: inherit;
-  color: #ed1c24;
-  border-color: #ed1c24;
+  color: #048C3F;
+  border-color: #048C3F;
 }
 .join-btn:hover {
   background-color: inherit;
-  border-color: #ed1c24;
-  color: #ed1c24;
+  border-color: #048C3F;
+  color: #048C3F;
 }
 .abunit h2 {
   margin-bottom: 20px;
@@ -13183,7 +13183,7 @@ html {
   padding-left: 10px;
 }
 .modal .submit {
-  background-color: #ed1c24;
+  background-color: #048C3F;
   color: #fff;
   display: inline-block;
   padding: 10px 30px;
@@ -13625,7 +13625,7 @@ img {
 }
 section.headertop {
   height: 100%;
-  background: #ed1c24;
+  background: #048C3F;
   color: #fff;
 }
 .rel {
@@ -13639,7 +13639,7 @@ section.headertop {
   left: 10%;
 }
 .mainheading h2 {
-  color: #ed1c24;
+  color: #048C3F;
   padding-bottom: 30px;
   max-width: 540px;
   font-size: 42px;
@@ -13667,7 +13667,7 @@ section.headertop {
   padding-top: 60px;
 }
 .basecolm {
-  background: #ed1c24;
+  background: #048C3F;
   height: 100%;
 }
 .aboutunitsec {
@@ -13750,7 +13750,7 @@ h3.widget-title {
   margin-right: 15px;
 }
 .caption h3 {
-  color: #ed1c24;
+  color: #048C3F;
   font-size: 36px;
 }
 .toparrow {
@@ -13955,7 +13955,7 @@ textarea {
     font-weight: 300;
     font-size: 16px;
     margin-top: 0;
-    background: #ed1c24;
+    background: #048C3F;
     padding: 15px 0 0;
     color: #fff;
   }
@@ -14000,7 +14000,7 @@ textarea {
   color: #000;
 }
 .privacy-text {
-  color: #ec3124;
+  color: #048C3F;
 }
 .unit-app {
   text-align: center;
