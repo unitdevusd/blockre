@@ -4066,7 +4066,7 @@ input[type="submit"].btn-block {
 .card {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
@@ -14186,7 +14186,7 @@ font-weight: 500;
   background: #235bf6;
 }
 .wrapper{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -14196,7 +14196,7 @@ font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
 
-#active: checked ~ .wrapper{
+#active:checked ~ .wrapper{
   clip-path: circle(75%);
 }
 
@@ -14245,7 +14245,7 @@ font-weight: 500;
     position: relative;
     line-height: 50px;
     transition: all 0.3s ease;
-  }
+}
 
 .wrapper ul li a:after{
   content: "";
@@ -14265,7 +14265,10 @@ font-weight: 500;
 .wrapper ul li a:hover{
   color: #32cd32;
 }
-
-input{
+.input{
   display: none;
 }
+
+.container{ width:100%; }    
+.align-left{ float: left;width:50%; }
+.align-right{ float: right;width:50%; }
