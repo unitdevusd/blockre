@@ -60,7 +60,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -8554,6 +8554,7 @@ button.bg-dark:hover {
   }
   .text-md-center {
     text-align: center !important;
+    text-shadow: -1px -1px 0 #32CD32, 1px -1px 0 #32CD32, -1px 1px 0 #32CD32, 1px 1px 0 #32CD32;
   }
 }
 @media (min-width: 992px) {
@@ -9529,7 +9530,7 @@ footer.sitefooter .mainfooter ul li a {
   background: #8ccee9;
 }
 .preciousdental header.siteheader {
-  background: #ed3123;
+  background: #048C3F;
   padding: 15px 45px;
 }
 .preciousdental img.mainlogo {
@@ -9728,6 +9729,7 @@ footer.sitefooter .mainfooter ul li a {
 }
 .testimonial-section .section-title {
   margin-bottom: 15px;
+  display:flex;
 }
 .testimonial-section.style-two {
   background-color: #f7f9fb;
@@ -9938,6 +9940,8 @@ footer#footer-section ul li {
 .footer-col p {
   font-size: 14px;
   color: #000;
+  text-shadow: -1px -1px 0 #32CD32, 1px -1px 0 #32CD32, -1px 1px 0 #32CD32, 1px 1px 0 #32CD32;
+  }
 }
 .Useful-link ul.useful-list li a {
   padding: 5px;
@@ -13627,6 +13631,8 @@ section.headertop {
   height: 100%;
   background: #048C3F;
   color: #fff;
+  /* margin:0;
+  padding:0; */
 }
 .rel {
   position: relative;
@@ -13870,8 +13876,8 @@ textarea {
     left: 0;
     top: 10%;
   }
-  .preciousdental img.mainlogo {
-    height: 70px;
+  /* .preciousdental img.mainlogo {
+    height: 70px; */
   }
   .join-btn {
     margin-left: 0;
@@ -13916,7 +13922,7 @@ textarea {
     padding: 30px 0;
   }
   .preciousdental header.siteheader {
-    background: #ed3123;
+    background: #048C3F;
     padding: 15px 5px;
   }
   section.headertop {
@@ -13933,7 +13939,7 @@ textarea {
     text-align: center;
   }
   .caption h3 {
-    color: #ed3123;
+    color: #048C3F;
     font-size: 28px;
   }
   .clientsay .basecolm span {
@@ -14065,10 +14071,10 @@ body{
 
 .services .content .card{
   background: #fff;
-  width: 340px;
-  margin: 10px;
+  width: 620px;
+  margin: 50px;
   padding: 25px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 5px 25px rgba (1 1 1 /15%);
   border-radius: 10px;
@@ -14076,7 +14082,7 @@ body{
 
 .services .content .card .service-icon{
     color: #048C3F;
-    font-size: 8em;
+    font-size: 7em;
     text-align: center;
 }
 
@@ -14090,7 +14096,7 @@ body{
 
 .contact .content .row{
   display: flex;
-  /* justify-content: start; */
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
@@ -14100,6 +14106,7 @@ body{
 .contact .content .row .card{
   background: #fff;
   width: 240px;
+  height: 400px;
   margin: 20px;
   padding: 25px;
   display: flex;
@@ -14186,14 +14193,14 @@ font-weight: 500;
   background: #235bf6;
 }
 .wrapper{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(-135deg, #048C3F, #32cd32);
-    clip-path: circle(25px at calc(100% - 45px) 45px);
-    transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-135deg, #048C3F, #32cd32);
+  clip-path: circle(25px at calc(100% - 45px) 45px);
+  transition: all 0.3s ease-in-out;
 }
 
 #active:checked ~ .wrapper{
@@ -14265,10 +14272,10 @@ font-weight: 500;
 .wrapper ul li a:hover{
   color: #32cd32;
 }
-.input{
+input{
   display: none;
 }
-
-.container{ width:100%; }    
-.align-left{ float: left;width:50%; }
-.align-right{ float: right;width:50%; }
+#resize{
+  width: 80px;
+  height: auto;
+}
