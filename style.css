@@ -14004,6 +14004,7 @@ textarea {
 #footer-section .footer-bottom a {
   font-size: 14px;
   color: #000;
+  text-align: left;
 }
 .privacy-text {
   color: #048C3F;
