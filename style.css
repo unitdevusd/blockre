@@ -14072,19 +14072,31 @@ body{
 
 .services .content .card{
   background: #fff;
-  width: 620px;
-  margin: 50px;
+  width: 25em;
+  height: 10em;
+  margin: 30px;
   padding: 25px;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 5px 25px rgba (1 1 1 /15%);
   border-radius: 10px;
 }
 
+.services .content .card .info{
+  font-size: .75em;
+}
+
+
 .services .content .card .service-icon{
     color: #048C3F;
-    font-size: 7em;
+    font-size: 5em;
     text-align: center;
+}
+
+.content .card .info{
+  inline-size: min-content;
+  width: 40%;
 }
 
 .contact .content{
@@ -14106,8 +14118,8 @@ body{
 
 .contact .content .row .card{
   background: #fff;
-  width: 240px;
-  height: 400px;
+  width: 15em;
+  height: 25em;
   margin: 20px;
   padding: 25px;
   display: flex;
@@ -14116,6 +14128,11 @@ body{
   flex-direction: column;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
+}
+
+.contact .content .row .card span{
+  display:flex;
+  text-align: center;
 }
 
 .contact .content .row .card .contact-icon{
@@ -14133,6 +14150,8 @@ body{
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
+  display:flex;
+  text-align: center;
 }
 
 .contact .content .row .card .info span{
