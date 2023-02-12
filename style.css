@@ -13926,6 +13926,15 @@ textarea {
     padding: 15px 5px;
   }
   section.headertop {
+    background-image : linear-gradient(rgba(4,9,30,0.7),rgb(0,165,81)),url(assets/images/Architecture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 90%;
+    width:100%;
     color: #fff;
     margin-bottom: 0px;
   }
